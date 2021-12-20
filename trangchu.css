@@ -1,0 +1,85 @@
+
+nav{
+    background-color:white;
+    position: fixed;
+    width: 100% ;
+    text-align: center;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+}
+nav li{
+    position: relative;
+    display: inline;
+}
+.left{
+    float: left;
+    padding-left: 3%;
+    padding-top: 1%;
+    font-weight: bolder;
+    color:red;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+}
+.right{
+    float: right;
+    padding-left: 1%;
+    padding-right: 3%;
+    padding-top: 2%;
+}
+main{
+    background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
+}
+#banner img{
+    width: 1495px;
+    height: 500px;
+}
+#banner h1{
+    text-align: center;
+    padding-top: 3%;
+    font-weight: bolder;
+}
+#diadiem img{
+    width: 450px;
+    height: 250px;
+    padding-left: 8%;
+}
+#diadiem p a{
+    text-decoration:none;
+    color: brown;
+    font-weight: bold;
+    padding-left: 8%;
+}
+.text-center text-white{
+    background-color: #f1f1f1;
+}
+.text-center text-dark p-3{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+footer{
+    padding-top: 30px;
+}
+.samson h1{
+    padding-top: 100px;
+    text-align: center;
+}
+.samson p{
+    text-indent:20px;
+    padding-bottom: 30px;
+}
+.samson img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 800px){
+    .large{
+        display: none;
+        }
+    #banner h1{
+            padding-top:100px ;
+        }
+    }
+
